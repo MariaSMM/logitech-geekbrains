@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header.header {
+    background: #2F3132;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+ul.navbar-nav {
+    padding: 35px 0;
+}
+
+li.nav-item:last-child {
+    padding: 3px 3px 3px 21px;
+}
+
+ul li.nav-item:not(:last-child) {
+    border-right: 1px solid #494949;
+    padding: 3px 21px 3px 22px;
+}
+
+button {
+    box-shadow: none;
+}
+
+button.navbar-toggler img {
+    width: 61px;
+    height: 32px;
+}
+
+a.nav-link-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.nav-link-item:hover {
+    color: #FFFFFF;
+}
+
+a.navbar-brand img {
+    width: 150px;
+}
+
+nav a.nav-link-item.active {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+section.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E0E1E2;
+}
+
+h2.section-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #2F3132;
+}
+
+h2.top {
+    margin-top: 100px;
+}
+
+svg.arrow__top {
+    margin-top: 49px;
+    margin-bottom: 80px;
+}
+
+p.text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0;
+}
+
+.img__top {
+    background-image: url("img/MX-Master 1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 671px;
+}
+
+section.bluetooth {
+    background: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+svg.bluetooth {
+    margin-top: 80px;
+    width: 22px;
+    height: 40px;
+}
+
+h2.bluetooth {
+    margin: 35px 0;
+}
+
+p.text__bluetooth {
+    width: 740px;
+}
+
+.count-days {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+p.count {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 300px;
+    line-height: 352px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-left: -185px;
+    margin-bottom: 165px;
+}
+
+span.days {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-top: 63px;
+    position: absolute;
+}
+
+img.bluetooth__mouse-img-front {
+    position: absolute;
+    bottom: 90px;
+    left: 15px;
+}
+
+img.bluetooth__mouse-img-left {
+    position: absolute;
+    bottom: 69px;
+    right: 20px;
+}
+
+footer.footer {
+    background: #2F3132;
+    color: #C7C8C8;
+    padding-top: 47px;
+    padding-bottom: 71px;
+}
+
+p.text__footer {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+section.different-tables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.different-tables {
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+p.text__different-tables {
+    width: 765px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+}
+
+.advantage-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2F3132;
+    margin: 50px 1rem;
+    width: 236px;
+    height: 140px;
+}
+
+p.advantage-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2F3132;
+    margin-bottom: 0;
+}
+
+p.advantage-text {
+
+}
+
+.different-tables-indicators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls button {
+    margin: 12px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    color: unset;
+}
+
+.different-tables-indicators img {
+    border-radius: 50%;
+}
+
+.controls {
+    display: flex;
+}
+
+p.controls-title {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+    margin-top: 39px;
+}
+
+p.text__different-tables-bottom {
+    width: 765px;
+    margin-bottom: 100px;
+    margin-top: 32px;
+}
+
+section.multiple-devices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: calc(100vw / 2);
+    background-color: #EDEDED;
+    background-position: bottom;
+    background-image: url("img/High_Resolution_JPG-MX Lifestyle 2346 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2.multiple-devices {
+    padding-top: 100px;
+    margin-bottom: 35px;
+}
+
+p.text__multiple-devices {
+    width: 958px;
+    margin-bottom: 69px;
+}
+
+ol.mouse-actions {
+    display: flex;
+    list-style-position: inside;
+    padding-left: 0;
+    width: 958px;
+}
+
+ol.mouse-actions li {
+    text-align: left;
+    width: auto;
+    padding: 7px 35px 7px 55px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2F3132;
+    border-left: 1px solid #494949;
+}
+
+ol.mouse-actions li:first-child {
+    border-left: none;
+    padding-left: 20px;
+}
+
+section.individual-settings {
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.individual-settings {
+    padding-top: 100px;
+    margin-bottom: 38px;
+}
+
+p.text__individual-settings {
+    width: 830px;
+    margin-bottom: 72px;
+}
+
+.individual-settings img {
+    padding: 0 calc(50% - 586px);
+}
+
+.apps {
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 749px;
+    margin-bottom: 100px;
+}
+
+.apps-icons img {
+    margin: 38px 18px 0 18px;
+}
+
+p.text__apps {
+    color: #fff;
+    margin-top: 26px;
+    margin-bottom: 29px;
+    width: 620px;
+}
+
+.excellence {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
+
+.excellence-item {
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.excellence-item.right {
+    align-items: flex-end;
+}
+
+.excellence-content.left {
+    padding-left: 2rem;
+    align-items: flex-start;
+}
+
+.excellence-content.left h2 {
+    text-align: left;
+    margin-bottom: 28px;
+    width: 280px;
+}
+
+.excellence-content.left p {
+    text-align: left;
+    width: 400px;
+}
+
+.excellence-content.right {
+    padding-right: 2rem;
+    align-items: flex-end;
+    width: 400px;
+}
+
+.excellence-content.right h2 {
+    text-align: right;
+    margin-bottom: 34px;
+}
+
+.excellence-content.right p {
+    text-align: right;
+}
+
+@media screen and (min-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 640px);
+        padding-right: calc(50% - 640px);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h2.top {
+        margin-top: 70px;
+    }
+
+    svg.arrow__top {
+        margin-top: 76px;
+        margin-bottom: 80px;
+    }
+
+    a.navbar-brand img {
+        width: 240px;
+    }
+
+    p.text__top {
+        padding: 0 calc(50% - 250px);
+    }
+
+    header.header {
+        background: unset;
+        margin: 54px 0;
+    }
+
+    nav.navbar {
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    button.navbar-toggler {
+        position: absolute;
+        right: 54px;
+    }
+
+    h2.section-header, p.advantage-title {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    h2.bluetooth {
+        margin: 40px 0 30px 0;
+    }
+
+    p.text, p.advantage-text, p.controls-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    p.count, span.days {
+        font-size: 150px;
+        line-height: 176px;
+        margin: 0px;
+        position: unset;
+    }
+
+    .count-days img {
+        width: 100%;
+        position: relative;
+        bottom: unset;
+        right: unset;
+    }
+
+    .count-days {
+        flex-direction: column;
+    }
+
+    h2.different-tables {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+    p.text__different-tables {
+        width: 680px;
+    }
+
+    #carouselExampleIndicators {
+        width: 100%;
+    }
+
+    p.text__different-tables-bottom {
+        width: 740px;
+        margin-bottom: 61px;
+        margin-top: 19px;
+    }
+
+    .advantage-item {
+        margin: 50px 15px;
+        width: 300px;
+        height: 170px;
+    }
+
+    .advantage-item p.text {
+        padding: 0 32px;
+    }
+
+    h2.multiple-devices {
+        margin-bottom: 30px;
+        padding: 70px 129px 0 129px;
+    }
+
+    p.text__multiple-devices {
+        width: unset;
+        padding: 0 64px;
+        margin-bottom: 69px;
+    }
+
+    ol.mouse-actions li:first-child {
+        padding-left: 60px;
+    }
+
+    ol.mouse-actions {
+        width: unset;
+    }
+
+    ol.mouse-actions li {
+        padding: 7px 21px 7px 28px;
+    }
+
+    h2.individual-settings {
+        padding-top: 70px;
+        width: 550px;
+        margin-bottom: 30px;
+    }
+
+    p.text__individual-settings {
+        width: 750px;
+        margin-bottom: 54px;
+    }
+
+    p.text__apps {
+        font-size: 20px;
+        line-height: 23px;
+        width: 620px;
+    }
+
+    .apps {
+        margin-top: 54px;
+        width: 765px;
+        margin-bottom: 70px;
+    }
+
+    .excellence {
+        margin: 70px 0 0 0;
+    }
+
+    .excellence-item {
+        width: 100%;
+    }
+
+    .excellence-item.one {
+        order: 2;
+    }
+
+    .excellence-item.two {
+        order: 1;
+    }
+
+    .excellence-item.three {
+        order: 3;
+    }
+
+    .excellence-item.four {
+        order: 4;
+    }
+
+    .excellence-content.left {
+        padding-left: 0rem;
+    }
+
+    .excellence-content.left h2 {
+        text-align: center;
+        padding: 0 24px;
+        margin-bottom: 30px;
+        width: unset;
+    }
+
+    .excellence-content.left p {
+        padding: 0 78px;
+        text-align: center;
+        width: unset;
+        margin-bottom: 50px;
+    }
+
+    .excellence-content.right {
+        padding-right: 0;
+        width: unset;
+        align-items: unset;
+    }
+
+    .excellence-content.right h2 {
+        text-align: center;
+        margin: 50px 80px 20px 80px;
+    }
+
+    .excellence-content.right p {
+        text-align: center;
+        padding: 0 100px;
+        margin-bottom: 50px;
+    }
+
+    .carousel-indicators.mouse [data-bs-target] {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin: 0 12px;
+        background-color: #2F3132;
+    }
+
+    #carouselMouse .carousel-inner {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    a.navbar-brand img {
+        width: 130px;
+    }
+
+    h2.section-header, p.advantage-title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    h2.top {
+        margin-top: 0px;
+    }
+
+    p.text, p.advantage-text, p.controls-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .img__top {
+        height: 230px;
+        margin-top: 68px;
+        margin-bottom: 67px;
+    }
+
+    header.header {
+        margin: 25px 0;
+    }
+
+    svg.arrow__top {
+        margin-top: 40px;
+        margin-bottom: 48px;
+    }
+
+    p.text__top {
+        padding: 0 calc(50% - 150px);
+    }
+
+    button.navbar-toggler img {
+        width: 30px;
+        height: 16px;
+    }
+
+    button.navbar-toggler {
+        right: 25px;
+    }
+
+    svg.bluetooth {
+        margin-top: 42px;
+        width: 18px;
+        height: 34px;
+    }
+
+    p.text__bluetooth {
+        width: unset;
+        padding: 0 34px;
+    }
+
+    p.count, span.days {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .count-days img {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        width: 100vw;
+    }
+
+    p.text__different-tables {
+        width: unset;
+        padding: 0 33px;
+        margin-bottom: 30px;
+    }
+
+    .advantages {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    .advantage-item {
+        margin: 3px;
+        width: 166px;
+        height: 94px;
+    }
+
+    .controls button {
+        margin: 9px;
+    }
+
+    h2.different-tables {
+        margin-top: 70px;
+    }
+
+    p.text__different-tables-bottom {
+        width: unset;
+        padding: 0 33px;
+        margin-bottom: 63px;
+    }
+
+    h2.multiple-devices {
+        padding: 70px 28px 0 28px;
+    }
+
+    p.text__multiple-devices {
+        width: unset;
+        padding: 0 33px;
+        margin-bottom: 36px;
+    }
+
+    ol.mouse-actions {
+        display: block;
+        list-style-position: inside;
+        width: unset;
+    }
+
+    ol.mouse-actions li {
+        text-align: left;
+        width: auto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #2F3132;
+        border-left: none;
+        padding-left: 55px;
+    }
+
+    ol.mouse-actions li:first-child {
+        padding: 7px 100px 7px 55px;
+    }
+
+    h2.individual-settings {
+        margin-bottom: 20px;
+        width: unset;
+    }
+
+    p.text__individual-settings {
+        width: unset;
+        padding: 0 33px;
+    }
+
+    .carousel-indicators.mouse [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        margin: 0 7px;
+    }
+
+    .apps {
+        width: 100%;
+        margin-top: 44px;
+        margin-bottom: 0px;
+    }
+
+    p.text__apps {
+        margin: 20px 33px 26px 33px;
+        width: unset;
+    }
+
+    .apps-icons img {
+        width: 22px;
+        height: 22px;
+        margin: 23px 11px 0 11px;
+    }
+
+    .excellence-content.left h2 {
+        padding: 0 24px;
+        margin-bottom: 28px;
+    }
+
+    .excellence-content.left p {
+        padding: 0 34px;
+        margin-bottom: 1rem;
+    }
+
+    .excellence-content.right h2 {
+        margin: 50px 70px 20px 70px;
+    }
+
+    .excellence-content.right p {
+        padding: 0 34px;
+        margin-bottom: 1rem;
+    }
+
+    footer.footer {
+        padding-top: 22px;
+        padding-bottom: 37px;
+    }
+
+    p.text__footer {
+        font-size: 7px;
+        line-height: 8px;
+    }
+}
+
+
